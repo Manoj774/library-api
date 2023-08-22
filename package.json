@@ -1,0 +1,11 @@
+{
+    "name": "Library-API",
+    "version": "1.0.0",
+    "description": "My Project for Assessment in Fullstack Software engineer role",
+    "scripts": {
+        "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\""
+    },
+    "devDependencies": {
+        "concurrently": "^7.6.0"
+    }
+}
